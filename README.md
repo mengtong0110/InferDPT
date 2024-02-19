@@ -57,7 +57,7 @@ We obtain embedding files of 11000 English words from the model [*text-embedding
 Run the following code to get the Perturbed Generation:
 
 ```
-python main.py  #You need to modify the variable to your input data (Prefix Text) and get the Perturbed Generation.
+python main.py --eps 6.0 --model gpt-4  #You need to modify the variable to your input data (Prefix Text) and get the Perturbed Generation.
 ```
 
 #### step2. Extraction Module
