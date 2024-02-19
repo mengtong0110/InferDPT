@@ -39,8 +39,8 @@ pip install "fschat[model_worker,webui]"
 git clone https://github.com/qwopqwop200/GPTQ-for-LLaMa.git repositories/GPTQ-for-LLaMa
 cd repositories/GPTQ-for-LLaMa
 git switch fastest-inference-4bit
-python3 setup_cuda.py install
-pip3 install texttable
+python setup_cuda.py install
+pip install texttable
 ```
 ### Download embedding files
 
