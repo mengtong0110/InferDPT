@@ -1,6 +1,6 @@
 # InferDPT
 
-Code for  "InferDPT: Privacy-preserving Inference for Black-box Large Language Models"
+Code for  "InferDPT: Privacy-preserving Inference for Black-box Large Language Models".
 
 Note that this repo is anonymous and only intended for **review** purpose only. 
 
