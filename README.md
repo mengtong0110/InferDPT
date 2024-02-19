@@ -20,6 +20,8 @@ We propose InferDPT, the first practical framework for privacy-preserving Infere
 #### step1  Install RANTEXT
 
 ```shell
+conda create -n InferDPT python=3.10
+conda activate InferDPT
 git clone https://github.com/mengtong0110/InferDPT
 pip install -r requirements.txt
 ```
