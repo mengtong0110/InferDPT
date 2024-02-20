@@ -42,7 +42,7 @@ raw_document='You need to put your private raw text here'
 raw_tokens = get_first_50_tokens(raw_document)
 perturbed_tokens=perturb_sentence(raw_tokens,args.eps,args.model,token_to_vector_dict,sorted_cl100_emb,sen_emb)
 print(perturbed_tokens)
-prompt="""Your task is to extend Prefix Text. 
+prompt="""Your task is to extend Prefix Text. Provide only your Extension. 
 - Prefix Text:"""+perturbed_tokens+"""
 \n- Extension:"""
 
