@@ -42,6 +42,8 @@ git switch fastest-inference-4bit
 python setup_cuda.py install
 pip install texttable
 ```
+
+You can skip steps 2 and 3 using [Ollama](https://github.com/ollama/ollama/tree/main)
 ### Download embedding files
 
 Download the embedding files from the [sharing link](https://drive.google.com/drive/folders/1mshI2yoJyx8LOLpAx7RB31VQkj-lvV1u?usp=sharing) and store them in the folder *InferDPT/data*.
