@@ -44,7 +44,8 @@ perturbed_tokens=perturb_sentence(raw_tokens,args.eps,args.model,token_to_vector
 print(perturbed_tokens)
 prompt="""Your task is to extend Prefix Text. 
 - Prefix Text:"""+perturbed_tokens+"""
-\n\n Provide only your Extension."""
+\n\n Provide only your Extension.
+- Extended Text:"""
 
 response = text_generaton_with_black_box_LLMs(prompt,0.5)
 response_text = get_first_100_tokens(response['choices'][0]['message']['content'])
