@@ -46,7 +46,7 @@ pip install texttable
 You can skip steps 2 and 3 using [Ollama](https://github.com/ollama/ollama/tree/main).
 ### Download embedding files
 
-Download the embedding files from the [sharing link](https://drive.google.com/drive/folders/1mshI2yoJyx8LOLpAx7RB31VQkj-lvV1u?usp=sharing) and store them in the folder *InferDPT/data*.
+Download the embedding files from the sharing link (https://drive.google.com/drive/folders/1mshI2yoJyx8LOLpAx7RB31VQkj-lvV1u?usp=sharing) and store them in the folder *InferDPT/data*.
 
 We obtain embedding files of 11000 English words from the model [*text-embedding-ada-002*](https://openai.com/blog/new-and-improved-embedding-model). You can also use others embedding files.
 
