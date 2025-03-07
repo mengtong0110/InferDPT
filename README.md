@@ -1,12 +1,6 @@
-# InferDPT
+# InferDPT: Privacy-preserving Inference for Black-box Large Language Models
 
-Code for  "InferDPT: Privacy-preserving Inference for Black-box Large Language Models".
-
-Note that this repo is anonymous and only intended for **review** purpose only. 
-
-## Introduction
-
-We propose InferDPT, the first practical framework for privacy-preserving Inference of black-box LLMs, implementing Differential Privacy in Text generation. We also propose RANTEXT, a novel differential privacy mechanism integrated into the perturbation module of InferDPT, which introduces the concept of "RANdom adjacency list" for TEXT perturbation within the prompt.
+This repo is the official Pytorch implementation for the paper "InferDPT: Privacy-preserving Inference for Black-box Large Language Models".
 
 <p align="center">
 <img src="img.png" alt="" width="800" title="The overview of InferDPT. The Prefix text is the perturbed document 𝐷𝑜𝑐𝑝 via RANTEXT. We use the same color to mark the perturbed parts in the raw document and the perturbed document. We also use the same color to highlight identical text appearing in the perturbed generation result, the extraction generation result, and the non-private generation result.
@@ -78,3 +72,16 @@ with the context established by the “Prefix Text”. Provide only your
 ```
 
 For information about model deployment, please refer to [FastChat](https://github.com/lm-sys/FastChat) and [GPTQ](https://github.com/qwopqwop200/GPTQ-for-LLaMa).
+
+# Citation
+
+If you find this repository useful for your work, please consider citing it as follows:
+
+```bibtex
+@article{tong2023inferdpt,
+  title={InferDPT: Privacy-preserving inference for black-box large language model},
+  author={Tong, Meng and Chen, Kejiang and Zhang, Jie and Qi, Yuang and Zhang, Weiming and Yu, Nenghai and Zhang, Tianwei and Zhang, Zhikun},
+  journal={IEEE Transactions on Dependable and Secure Computing},
+  year={2025}
+}
+```
