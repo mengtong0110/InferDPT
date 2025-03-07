@@ -1,6 +1,6 @@
 # InferDPT: Privacy-preserving Inference for Black-box Large Language Models
 
-This repo is the official Pytorch implementation for the paper "InferDPT: Privacy-preserving Inference for Black-box Large Language Models".
+This repo is the official python implementation for the paper [InferDPT: Privacy-preserving Inference for Black-box Large Language Models](https://arxiv.org/pdf/2310.12214) (TDSC' 25).
 
 <p align="center">
 <img src="img.png" alt="" width="800" title="The overview of InferDPT. The Prefix text is the perturbed document 𝐷𝑜𝑐𝑝 via RANTEXT. We use the same color to mark the perturbed parts in the raw document and the perturbed document. We also use the same color to highlight identical text appearing in the perturbed generation result, the extraction generation result, and the non-private generation result.
@@ -78,7 +78,7 @@ For information about model deployment, please refer to [FastChat](https://githu
 If you find this repository useful for your work, please consider citing it as follows:
 
 ```bibtex
-@article{tong2023inferdpt,
+@article{tong2025inferdpt,
   title={InferDPT: Privacy-preserving inference for black-box large language model},
   author={Tong, Meng and Chen, Kejiang and Zhang, Jie and Qi, Yuang and Zhang, Weiming and Yu, Nenghai and Zhang, Tianwei and Zhang, Zhikun},
   journal={IEEE Transactions on Dependable and Secure Computing},
