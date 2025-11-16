@@ -78,13 +78,14 @@ For information about model deployment, please refer to [FastChat](https://githu
 If you find this repository useful for your work, please consider citing it as follows:
 
 ```bibtex
-@article{tong2025inferdpt,
-  title={InferDPT: Privacy-Preserving Inference for Closed-Box Large Language Models},
+@ARTICLE{10922117,
   author={Tong, Meng and Chen, Kejiang and Zhang, Jie and Qi, Yuang and Zhang, Weiming and Yu, Nenghai and Zhang, Tianwei and Zhang, Zhikun},
-  journal={IEEE Transactions on Dependable and Secure Computing},
+  journal={IEEE Transactions on Dependable and Secure Computing}, 
+  title={InferDPT: Privacy-Preserving Inference for Closed-Box Large Language Models}, 
+  year={2025},
   volume={22},
   number={5},
-  pages={4625--4640},
-  year={2025}
-}
+  pages={4625-4640},
+  keywords={Privacy;Differential privacy;Closed box;Perturbation methods;Protection;Large language models;Computational modeling;Writing;Chatbots;Vocabulary;Differential privacy;closed-box;inference;large language model},
+  doi={10.1109/TDSC.2025.3550389}}
 ```
